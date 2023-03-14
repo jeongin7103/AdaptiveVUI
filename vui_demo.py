@@ -7,7 +7,7 @@ import random
 import multiprocessing
 import cv2
 import numpy as np
-from danMtlTrt.inference50_t import main, calctime,inference
+from danMtl.inference50_t import main, calctime,inference
 from IPython.display import display, clear_output
 from pynput.keyboard import Key, Listener
 from RDALatest11302022 import mainRDAEEG
