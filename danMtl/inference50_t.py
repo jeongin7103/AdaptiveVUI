@@ -10,7 +10,7 @@ import argparse
 from collections import OrderedDict
 import numpy as np
 #import networks.resnet as ResNet
-from danMtlTrt.networks.Res50 import res50
+from danMtl.networks.Res50 import res50
 from torch2trt import torch2trt
 import time 
 import cv2
